@@ -10,7 +10,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
       <Statistic label="Neutral: " value={neutral} />
       <Statistic label="Bad: " value={bad} />
       <Statistic label="Total: " value={total} />
-      <Statistic label="Positive feedback: " value={positivePercentage} />
+      <Statistic label="Positive feedback: " value={`${positivePercentage}%`} />
     </ul>
   </>
 );
